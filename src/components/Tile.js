@@ -40,7 +40,6 @@ export default class Tile extends React.Component {
 
   render() {
     let pigName = this.props.hog.name.toLowerCase().replace(/\s/g, '_')
-    console.log(pigName)
     if (this.state.hidden) {
       return (
         <div className="pigTile">
