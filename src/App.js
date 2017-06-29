@@ -12,7 +12,6 @@ class App extends Component {
     super()
     this.state = {
       hogs: Hogs,
-      //shownHogs: Hogs
     }
   }
 
@@ -48,11 +47,8 @@ class App extends Component {
       hogs: sortedHogs
     })
   }
-  // hideHog(hiddenHog) {
-  //   this.setState({
-  //     shownHogs: this.state.shownHogs.filter(hog => hog !== hiddenHog)
-  //   })
-  // }
+
+
 
   render() {
     return (
