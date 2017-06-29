@@ -56,7 +56,7 @@ export default class Tile extends React.Component {
               <a>
                 <img alt="pig" src={require(`../hog-imgs/${pigName}.jpg`)} />
               </a>
-              <h3 align="center">{this.props.hog.name}</h3>
+              <h3>{this.props.hog.name}</h3>
             </div>
           )
           }

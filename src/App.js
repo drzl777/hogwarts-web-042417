@@ -60,7 +60,7 @@ class App extends Component {
           < Nav />
         <button onClick={this.sortName.bind(this)}>Sort By Name</button>
         <button onClick={this.sortWeight.bind(this)}>Sort By Weight</button>
-        {this.state.hogs.map(hog => <Tile hog={hog} />)}
+        {this.state.hogs.map((hog, index) => <Tile key={`hog-${index}`} hog={hog} />)}
       </div>
     )
   }
